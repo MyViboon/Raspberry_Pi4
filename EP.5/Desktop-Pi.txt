@@ -1,0 +1,25 @@
+user: pi
+password: raspberry
+
+==========================================
+
+Raspberry ip : 192.168.1.50
+
+==========================================
+
+คำสั่ง SSH
+
+- sudo raspi-config
+
+ข้อ 2 ปรับจอ ให้เท่าขนาดที่ต้องการใช้งาน
+ข้อ 3 ตั้งค่า  SSH,VNC ให้ enable
+
+==========================================
+สั่งรีสตาร์ทและปิดผ่าน putty
+- sudo reboot
+- sudo halt
+
+UPDATE RaspberryPi ก่อนดาวโหลด packgage ตัวอื่น
+
+-sudo apt-get update && sudo apt-get upgrade
+-sudo apt-get install idle
